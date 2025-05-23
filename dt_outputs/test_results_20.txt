@@ -1,0 +1,187 @@
+------------------------------
+---10-Fold Cross Validation---
+------------------------------
+train_accuracy: 0.9808
+test_accuracy: 0.6365
+test_precision: 0.6359
+test_recall: 0.6211
+test_f1: 0.6284
+
+---------------------------------------
+-----Initial Classification Report-----
+---------------------------------------
+Accuracy on Test Set: 0.6352380952380953
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.63      0.66      0.65      6894
+           1       0.64      0.61      0.62      6756
+
+    accuracy                           0.64     13650
+   macro avg       0.64      0.64      0.63     13650
+weighted avg       0.64      0.64      0.64     13650
+
+--------------------------------------------------------
+-----Tuned Classification Report for 3,5,10,0 Depth-----
+--------------------------------------------------------
+Depth: 3
+Tuned Accuracy: 0.7222710622710623
+Tuned Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.70      0.78      0.74      6894
+           1       0.74      0.67      0.70      6756
+
+    accuracy                           0.72     13650
+   macro avg       0.72      0.72      0.72     13650
+weighted avg       0.72      0.72      0.72     13650
+
+Depth: 5
+Tuned Accuracy: 0.7316483516483516
+Tuned Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.71      0.80      0.75      6894
+           1       0.76      0.67      0.71      6756
+
+    accuracy                           0.73     13650
+   macro avg       0.74      0.73      0.73     13650
+weighted avg       0.73      0.73      0.73     13650
+
+Depth: 10
+Tuned Accuracy: 0.7263003663003663
+Tuned Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.71      0.77      0.74      6894
+           1       0.75      0.68      0.71      6756
+
+    accuracy                           0.73     13650
+   macro avg       0.73      0.73      0.73     13650
+weighted avg       0.73      0.73      0.73     13650
+
+Depth: None
+Tuned Accuracy: 0.6352380952380953
+Tuned Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.63      0.66      0.65      6894
+           1       0.64      0.61      0.62      6756
+
+    accuracy                           0.64     13650
+   macro avg       0.64      0.64      0.63     13650
+weighted avg       0.64      0.64      0.64     13650
+
+------------------------------------------------------------------------------------
+-----Tuned Classification Report for 0.001,0.003,0.005,0.1 Confidence Threshold-----
+------------------------------------------------------------------------------------
+Confidence Threshold:  0.001
+Tuned Accuracy: 0.7236630036630036
+Tuned Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.73      0.72      0.73      6894
+           1       0.72      0.72      0.72      6756
+
+    accuracy                           0.72     13650
+   macro avg       0.72      0.72      0.72     13650
+weighted avg       0.72      0.72      0.72     13650
+
+Confidence Threshold:  0.003
+Tuned Accuracy: 0.7222710622710623
+Tuned Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.70      0.78      0.74      6894
+           1       0.74      0.67      0.70      6756
+
+    accuracy                           0.72     13650
+   macro avg       0.72      0.72      0.72     13650
+weighted avg       0.72      0.72      0.72     13650
+
+Confidence Threshold:  0.005
+Tuned Accuracy: 0.7120879120879121
+Tuned Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.68      0.80      0.74      6894
+           1       0.76      0.62      0.68      6756
+
+    accuracy                           0.71     13650
+   macro avg       0.72      0.71      0.71     13650
+weighted avg       0.72      0.71      0.71     13650
+
+Confidence Threshold:  0.1
+Tuned Accuracy: 0.5050549450549451
+Tuned Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.51      1.00      0.67      6894
+           1       0.00      0.00      0.00      6756
+
+    accuracy                           0.51     13650
+   macro avg       0.25      0.50      0.34     13650
+weighted avg       0.26      0.51      0.34     13650
+
+----------------------------------------------------------------
+-----Tuned Classification Report for 1, 2, 3, 4, 5 Min Leaf-----
+----------------------------------------------------------------
+Min_leaf:  1
+Tuned Accuracy: 0.7222710622710623
+Tuned Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.70      0.78      0.74      6894
+           1       0.74      0.67      0.70      6756
+
+    accuracy                           0.72     13650
+   macro avg       0.72      0.72      0.72     13650
+weighted avg       0.72      0.72      0.72     13650
+
+Min_leaf:  2
+Tuned Accuracy: 0.7222710622710623
+Tuned Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.70      0.78      0.74      6894
+           1       0.74      0.67      0.70      6756
+
+    accuracy                           0.72     13650
+   macro avg       0.72      0.72      0.72     13650
+weighted avg       0.72      0.72      0.72     13650
+
+Min_leaf:  3
+Tuned Accuracy: 0.7222710622710623
+Tuned Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.70      0.78      0.74      6894
+           1       0.74      0.67      0.70      6756
+
+    accuracy                           0.72     13650
+   macro avg       0.72      0.72      0.72     13650
+weighted avg       0.72      0.72      0.72     13650
+
+Min_leaf:  4
+Tuned Accuracy: 0.7222710622710623
+Tuned Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.70      0.78      0.74      6894
+           1       0.74      0.67      0.70      6756
+
+    accuracy                           0.72     13650
+   macro avg       0.72      0.72      0.72     13650
+weighted avg       0.72      0.72      0.72     13650
+
+Min_leaf:  5
+Tuned Accuracy: 0.7222710622710623
+Tuned Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.70      0.78      0.74      6894
+           1       0.74      0.67      0.70      6756
+
+    accuracy                           0.72     13650
+   macro avg       0.72      0.72      0.72     13650
+weighted avg       0.72      0.72      0.72     13650

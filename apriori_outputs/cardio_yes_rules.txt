@@ -1,0 +1,60 @@
+Rule: IF ap_hi_high
+THEN cardio_yes
+  Support: 0.093
+  Confidence: 0.856
+  Lift: 1.730
+------------------------------------------------------------
+Rule: IF ap_hi_high, alco_no
+THEN cardio_yes
+  Support: 0.087
+  Confidence: 0.856
+  Lift: 1.730
+------------------------------------------------------------
+Rule: IF smoke_no, ap_hi_high, alco_no
+THEN cardio_yes
+  Support: 0.081
+  Confidence: 0.855
+  Lift: 1.727
+------------------------------------------------------------
+Rule: IF smoke_no, ap_hi_high
+THEN cardio_yes
+  Support: 0.084
+  Confidence: 0.855
+  Lift: 1.727
+------------------------------------------------------------
+Rule: IF cholesterol_very_high
+THEN cardio_yes
+  Support: 0.087
+  Confidence: 0.762
+  Lift: 1.540
+------------------------------------------------------------
+Rule: IF cholesterol_very_high, alco_no
+THEN cardio_yes
+  Support: 0.082
+  Confidence: 0.761
+  Lift: 1.537
+------------------------------------------------------------
+Rule: IF ap_lo_elevated, smoke_no, ap_hi_elevated, alco_no
+THEN cardio_yes
+  Support: 0.091
+  Confidence: 0.751
+  Lift: 1.518
+------------------------------------------------------------
+Rule: IF ap_lo_elevated, smoke_no, gender_female, alco_no
+THEN cardio_yes
+  Support: 0.098
+  Confidence: 0.751
+  Lift: 1.517
+------------------------------------------------------------
+Rule: IF height_medium, smoke_no, ap_lo_elevated, alco_no
+THEN cardio_yes
+  Support: 0.081
+  Confidence: 0.751
+  Lift: 1.516
+------------------------------------------------------------
+Rule: IF ap_lo_elevated, gender_female, alco_no
+THEN cardio_yes
+  Support: 0.100
+  Confidence: 0.750
+  Lift: 1.516
+------------------------------------------------------------

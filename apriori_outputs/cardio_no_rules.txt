@@ -1,0 +1,60 @@
+Rule: IF cholesterol_normal, gluc_normal, gender_female, age_41-50, ap_hi_normal
+THEN cardio_no
+  Support: 0.085
+  Confidence: 0.815
+  Lift: 1.613
+------------------------------------------------------------
+Rule: IF cholesterol_normal, gluc_normal, gender_female, smoke_no, age_41-50, ap_hi_normal
+THEN cardio_no
+  Support: 0.083
+  Confidence: 0.814
+  Lift: 1.611
+------------------------------------------------------------
+Rule: IF cholesterol_normal, gluc_normal, active_yes, age_41-50, ap_hi_normal
+THEN cardio_no
+  Support: 0.108
+  Confidence: 0.813
+  Lift: 1.610
+------------------------------------------------------------
+Rule: IF cholesterol_normal, gluc_normal, gender_female, alco_no, age_41-50, ap_hi_normal
+THEN cardio_no
+  Support: 0.083
+  Confidence: 0.813
+  Lift: 1.610
+------------------------------------------------------------
+Rule: IF cholesterol_normal, gluc_normal, gender_female, alco_no, smoke_no, age_41-50, ap_hi_normal
+THEN cardio_no
+  Support: 0.082
+  Confidence: 0.813
+  Lift: 1.609
+------------------------------------------------------------
+Rule: IF cholesterol_normal, ap_lo_normal, gluc_normal, active_yes, age_41-50, ap_hi_normal
+THEN cardio_no
+  Support: 0.099
+  Confidence: 0.812
+  Lift: 1.608
+------------------------------------------------------------
+Rule: IF age_41-50, cholesterol_normal, gender_female, ap_hi_normal
+THEN cardio_no
+  Support: 0.089
+  Confidence: 0.810
+  Lift: 1.605
+------------------------------------------------------------
+Rule: IF age_41-50, cholesterol_normal, active_yes, ap_hi_normal
+THEN cardio_no
+  Support: 0.114
+  Confidence: 0.810
+  Lift: 1.603
+------------------------------------------------------------
+Rule: IF cholesterol_normal, gender_female, smoke_no, age_41-50, ap_hi_normal
+THEN cardio_no
+  Support: 0.087
+  Confidence: 0.810
+  Lift: 1.603
+------------------------------------------------------------
+Rule: IF cholesterol_normal, gluc_normal, active_yes, smoke_no, age_41-50, ap_hi_normal
+THEN cardio_no
+  Support: 0.098
+  Confidence: 0.810
+  Lift: 1.603
+------------------------------------------------------------
